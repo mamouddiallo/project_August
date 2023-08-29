@@ -630,102 +630,33 @@
        /* Fin de la partie header */
 
 }
-
+  
+   span{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+   }
     /* ici nous avons les css  sur la partie contenenant les differents films   */
-    .lesfilms{
+    .pied{
         width: 100%;
-        height: 600px;
-        /* border: 2px solid black; */
-        background-color: #043C7C;
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        background-color: #4773E4;
+        height: 200px;
+        margin-top: 50px;
+        
     }
-    .Actions{
-        width: 100%;
-        height: 500px;
-        background-color: white;
-        border: 2px solid black;
-        /* margin: auto; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-    .Commedy{
-        width: 80%;
-        height: 110px;
-        background-color: white;
-        border: 2px solid black;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-    .documentaire{
-        width: 80%;
-        height: 110px;
-        background-color: white;
-        border: 2px solid black;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 120px;
-    }
-    .Fast{
-        width: 100%;
-        height: 110px;
-        /* border: 2px solid black; */
-        margin-top: -20px;
-        margin-left: 20px;
-    }
-    .small{
-        width:100%;
-        height: 80px;
-        /* border: 2px solid black; */
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-    .small1{
-        width:100%;
-        height: 120px;
-        /* border: 2px solid black; */
-        margin-top: -20px;
-        margin-left: 20px;
-    }
-    .Fast1{
-        width: 25%;
-        height: 110px;
-        /* border: 2px solid black; */
-    }
-    .Fast2{
-        width: 25%;
-        height: 110px;
-        /* border: 2px solid black; */
-    }
-    .fort{
-        height: 80px;
-        width: 50%;
-        /* border: 2px solid black; */
-        margin-left: 20px;
-    }
-    
-    .ecriture{
-        margin-left: 0px;
-        margin-top:-25px;
-        width: 100%;
-        background-color: #043C7C;
-    
-    }
-    .ecriture1{
-        margin-left: 420px;
-    
-    }
-    .titre{
-        margin: auto;
-    }
-    /* FIN DE LA PARTIE SUR LE DIFFERNTS FILMS  */
+    .medias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   
+    .elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .copyright{
+    text-align: center;
+   }
 }
+
