@@ -16,7 +16,7 @@
         justify-content: space-between;
         margin: 0 auto;
     }
-    
+
     .logo{
         margin-top: 20px;
         width: 122px;
@@ -32,7 +32,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .co_deco{
         margin-top: 45px;
         width: 200px;
@@ -40,9 +40,9 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-       
+
     }
-    
+
     .connexion{
         width:100px ;
         height:40px ;
@@ -50,7 +50,7 @@
         border: 2px solid black;
         text-align: center;
         background-color: white;
-    
+
     }
     .deconnexion{
         width:100px ;
@@ -59,9 +59,9 @@
         border: 2px solid black;
         text-align: center;
         background-color: white;
-        
+
     }
-    
+
     .Zonerecherche{
         width: 250px;
         height: 30px;
@@ -70,7 +70,7 @@
         margin-right: 10px;
         /* background: white; */
         /* text-align: center; */
-    
+
        /* Fin de la partie header */
     }
     .text_news{
@@ -82,30 +82,138 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .femme_casque{
-        width: 100%;
-        height: 500px;
-        background-color: blueviolet;
+        width: 80%;
+        margin: auto;
+        height: 800px;
+        background-color: whitesmoke;
+        border: 3px solid wheat;
     }
     .fem_cas{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 80%;
-        height: 400px;
-        border: 2px solid black;
+        height: 350px;
+        /* border: 2px solid black; */
         margin: 0 auto;
     }
     .fe_ca{
         width: 45%;
         height: 300px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     .text{
         width: 45%;
         height: 300px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
-} 
+    .letexte{
+        font-size: xx-large;
+        font-weight: 200;
+
+    }
+    .livinglife{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .preparation{
+        height: 400px;
+        width: 80%;
+        margin: auto;
+        background-color: #043C7C;
+
+    }
+
+    .pied{
+        width: 80%;
+        height: 360px;
+        margin: 0 auto;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 00px; */
+        background-color: #4773E4;
+        /* margin-left: 0px; */
+    }
+    .medias{
+        width: 50%;
+        height: 80px;
+        /* border: 2px solid black; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+    .elements{
+        width: 50%;
+        height: 80px;
+        /* border: 2px solid black; */
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+
+    }
+
+    .Home{
+        width: 70px;
+        height: 40px;
+        /* border-radius: 50%; */
+        /* border: 2px solid black; */
+    }
+    .Videos{
+        width: 70px;
+        height: 40px;
+        /* border-radius: 50%; */
+        /* border: 2px solid black; */
+    }
+
+    .News{
+        width: 70px;
+        height: 40px;
+        /* border-radius: 50%; */
+        /* border: 2px solid black; */
+    }
+
+
+.copyright{
+    width: 50%;
+    height: 80px;
+    /* border: 2px solid black; */
+    margin: auto;
+    color: white;
+    text-align: center;
+
+}
+.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+}
 
 /* _________________________________________________________________________________ */
 /* _________________________________________________________________________________ */
@@ -114,7 +222,7 @@
 /* ICI NOUS AVONS LE CSS AVEC [10, 500] */
 
 @media (min-width:10px) and (max-width:500px){
-    
+
     section.header{
         /* debut de la partie header */
         display: flex;
@@ -133,7 +241,7 @@
         display: flex;
         flex-direction: column;
         margin-right: 100px;
-        
+
     }
 
     .logo{
@@ -153,8 +261,8 @@
         justify-content: center;
         margin-left: 10px;
     }
-    
-    
+
+
     .co_deco{
         margin-top: -280px;
         width: 200px;
@@ -163,9 +271,9 @@
         flex-direction: row;
         justify-content: space-between;
         margin-left: 130px;
-       
+
     }
-    
+
     .connexion{
         width:110px ;
         height:50px ;
@@ -173,7 +281,7 @@
         border: 2px solid black;
         text-align: center;
         background-color: white;
-    
+
     }
     .deconnexion{
         width:110px ;
@@ -182,26 +290,32 @@
         border: 2px solid black;
         text-align: center;
         background-color: white;
-        
+
     }
-    
+
     .Zonerecherche{
         margin-top: -160px;
         text-align: center;
         margin-left: 110px;
-    
+
        /* Fin de la partie header */
 
 }
 .text_news{
-    margin-left: 70px;
+    margin-left:20px;
     margin-top: 50px;
+    color: black;
+    /* margin-right: 10px; */
+}
+.text_news .title1{
+    margin-left: 50px;
 }
 
 .femme_casque{
     width: 100%;
-    height: 600px;
-    background-color: blueviolet;
+    height: 1200px;
+    background-color: whitesmoke;
+    border: 3px solid wheat;
 }
 .fem_cas{
     display: flex;
@@ -209,18 +323,18 @@
     justify-content: space-between;
     width: 80%;
     height: 550px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0 auto;
 }
 .fe_ca{
     width: 95%;
     height: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .text{
     width: 95%;
     height: 250px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .letexte{
     font-size: x-large;
@@ -229,6 +343,41 @@
     margin-top: -20px;
     height: 220px;
     width: 100%;
+}
+.livinglife{
+    text-align: center;
+    font-size: xx-large;
+}
+.preparation{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #043C7C;
+}
+
+.pied{
+    width: 100%;
+    background-color: #4773E4;
+    height: 300px;
+    margin-top: 50px;
+
+}
+.medias{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.elements{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.copyright{
+/* text-align: center; */
+margin-right: 100px;
+width: 100%;
+text-align: center;
 }
 
 }

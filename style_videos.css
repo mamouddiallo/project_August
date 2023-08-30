@@ -1,109 +1,11 @@
 
 
-/* Footer */
-
-.pied{
-    width: 80%;
-    height: 300px;
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 10px;
-    /* background-color: #4773E4; */
-    margin-left: 100px;
-}
-.medias{
-    width: 20%;
-    height: 80px;
-    /* border: 2px solid black; */
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-
-}
-.elements{
-    width: 50%;
-    height: 80px;
-    /* border: 2px solid black; */
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-
-}
-
-.Home{
-    width: 70px;
-    height: 40px;
-    /* border-radius: 50%; */
-    /* border: 2px solid black; */
-}
-.Videos{
-    width: 70px;
-    height: 40px;
-    /* border-radius: 50%; */
-    /* border: 2px solid black; */
-}
-
-.News{
-    width: 70px;
-    height: 40px;
-    /* border-radius: 50%; */
-    /* border: 2px solid black; */
-}
-.Blog{
-    width: 70px;
-    height: 40px;
-    /* border-radius: 50%; */
-    /* border: 2px solid black; */
-}
-
-
-.copyright{
-    width: 50%;
-    height: 80px;
-    /* border: 2px solid black; */
-    margin: auto;
-    color: white;
-
-}
-.face{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    /* border: 2px solid black; */
-}
-.insta{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    /* border: 2px solid black; */
-}
-
-.twitter{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    /* border: 2px solid black; */
-}
-.whatsapp{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    /* border: 2px solid black; */
-}
-
-
 
 
 /* ICI NOUS AVONS MEDIAS POUR LES ECRANS DE [10,500] */
 
 @media (min-width:10px) and (max-width:500px) {
-
+    
     section.header{
         /* debut de la partie header */
         display: flex;
@@ -161,7 +63,9 @@
 
 /* ICI NOUS AVONS LE MEDIA DE LORSQUE LA TAILLE MINIMALE DE L'ECRAN EST 500PX CAD [500, +OO[ */
 @media (min-width:500px) { 
-
+    body{
+        background-color: whitesmoke;
+    }
     section.header{
         /* debut de la partie header */
         width: 100%;
@@ -199,12 +103,10 @@
 
     
     .Zonerecherche{
-        width: 150px;
+        width: 250px;
         height: 30px;
         margin-top: 45px;
-        border: 1px solid black;
-        margin-right: 20px;
-        background: white;
+        /* background: white; */
         text-align: center;
         border-radius: 5px;
     
@@ -281,7 +183,7 @@
 
 .pied{
     width: 80%;
-    height: 300px;
+    height: 360px;
     margin: 0 auto;
     /* border: 2px solid black; */
     display: flex;
@@ -293,13 +195,22 @@
 .medias{
     width: 80%;
     height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
     /* border: 2px solid black; */
    
 
 }
+.copyright h4{
+    width: 100%;
+    margin-left: 150px;
+}
 .elements{
     width: 80%;
     height: 80px;
+   
     /* border: 2px solid black; */
     margin: auto;
     display: flex;

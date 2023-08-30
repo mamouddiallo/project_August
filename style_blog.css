@@ -211,7 +211,7 @@
 
     .pied{
         width: 80%;
-        height: 210px;
+        height: 350px;
         margin: 0 auto;
         /* border: 2px solid black; */
         display: flex;
@@ -226,7 +226,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 auto;
+        margin: auto;
         /* border: 2px solid black; */
        
     
@@ -239,8 +239,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        color: white;
+        color: black;
     
+    }
+    .copyright h4{
+        margin-left: 200px;
+        color: black;
     }
     
     .Home{
@@ -461,7 +465,7 @@
 }
 .pied{
     width: 80%;
-    height: 200px;
+    height: 360px;
     margin-top: 520px;
     margin-left: 35px;
     /* border: 2px solid black; */
@@ -470,6 +474,10 @@
     /* margin-top: 00px; */
     background-color: #4773E4;
     /* margin-left: 0px; */
+}
+.copyright h4{
+    width: 100%;
+    margin-left: 150px;
 }
 .medias{
     width: 80%;
